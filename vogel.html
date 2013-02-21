@@ -9,7 +9,6 @@ body {
     padding: 0;
     background-color: white;
     border: 1px solid #808080;
-    
 }
 header  {
     height: 250px;
@@ -39,22 +38,28 @@ header h2 {
     padding-bottom: 0;
     color: silver; 
 }
-h3 { 
-    margin: center;
-    color: black;
+section > img { 
+    float: left;
+    background-color: #ddd;
+    padding: 3px;
+    border: 1px solid #000;
+    margin: 69px;
+}     
+section h1 {
+    text-align: center;
 }
-p  { 
+section p  { 
     background-color: #E6E6FA;
-    margin-top: 30px;
-    padding: 10px;
-    padding-left: 20px;
+    margin: 20px;
+    padding: 20px;
     border: 1px solid #444;
     border-radius: 25px;
     color:  #8B008B;
-}    
+}
 footer {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     font-size: .9em;
 }
 footer a {
@@ -65,14 +70,13 @@ footer a {
     margin-right: 10px;
     background-color: #FFF;
 }
-a > strong {
+footer a strong {
     background-color: #9932CC;
     color: #FFF;
     padding: 2px;
     padding-left: 4px;
     margin-right: 2px;
 }
-
 </style>
 </head>
 <body>
@@ -81,7 +85,11 @@ a > strong {
 <h2>Arlington Career Center</h2>
 <h1>HILT Institute</h1>
 </header>
-<h1>Louise A. Vogel</h1>
+
+<section>
+<img src="images/vogel.jpg" alt="ms. vogel" width="160"  height="170">
+
+<h1>Ms. Louise A. Vogel</h1>
 <p>
 Louise A. Vogel has been a language arts teacher since 1995. Ms. Vogel has
 spent time in Europe and Mexico studying and teaching English, French, and
@@ -94,7 +102,8 @@ Embassy of Spain to study at the Universidad de Salamanca and the Universidad
 de Zaragosa. she is certified to teach ESOL, English, and French. She has been
 teaching ESOL/HILT and English language arts at the HILT Institute since
 2002.
-<p>
+</p>
+</section>
 
 <footer>
 <a href="http://validator.w3.org/check/referer">
@@ -102,6 +111,7 @@ teaching ESOL/HILT and English language arts at the HILT Institute since
 <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
 <strong> CSS </strong> Valid! </a>
 </footer> 
+
 </body>
 </html>
 
